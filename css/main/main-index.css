@@ -1,0 +1,241 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 26vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+article {
+  background-image: url(../../img/traffic-332857_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.two-column-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 25rem;
+  font-size: large;
+  border-top: 2px solid black;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 0.1rem;
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.insurance-calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  height: 85%;
+  border: 3px solid #5d5c5a;
+  margin: 0 auto -2rem auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+aside {
+  background-color: #cecece;
+  text-align: center;
+  padding: 2.5rem 0 0.5rem 0;
+}
+
+form {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+label {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+input,
+select {
+  width: 25vw;
+}
+
+.title {
+  margin-top: 6vh;
+  margin-left: 5%;
+}
+
+.insurance-calculator h2 {
+  max-width: 50%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+input,
+select {
+  font-size: 2rem;
+}
+
+.result {
+  height: 5rem;
+  color: #339235;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+button {
+  width: 25vw;
+  font-size: 3rem;
+  background-color: #339235;
+  color: white;
+  border-radius: 1rem;
+}
+
+.column :not(h5):not(i) {
+  color: #455f95;
+}
+
+i {
+  color: #90d3d4;
+}
+
+.column ul {
+  margin: 1rem 0 2rem 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .insurance-calculator h2 {
+    max-width: 60%;
+  }
+  button {
+    font-size: 2rem;
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  label {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+  }
+  input,
+  select {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .insurance-calculator h2 {
+    max-width: 90%;
+  }
+  .result {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  button {
+    width: 40vw;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+  }
+}
+/*# sourceMappingURL=main-index.css.map */

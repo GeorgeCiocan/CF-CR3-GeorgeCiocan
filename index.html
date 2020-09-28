@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/567204a158.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/header-footer/header-footer.css" />
+    <link rel="stylesheet" href="./css/main/main-index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Insurance logo" />
+        </div>
+        <div class="advertisment">
+          <img
+            src="./img/banner.png"
+            alt="Full Stack Web Development course in Vienna"
+          />
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div class="title">
+            <h1>Car insurance</h1>
+          </div>
+          <div class="insurance-calculator">
+            <h2>Great coverage begins with a custom quote</h2>
+            <form id="form">
+              <label for="name"
+                >Your name:
+                <input type="text" name="name" required />
+              </label>
+              <label for="age"
+                >Age:
+                <input type="number" name="age" required />
+              </label>
+              <label for="country"
+                >Country
+                <select name="country" required>
+                  <option value="Austria">Austria</option>
+                  <option value="Hungary">Hungary</option>
+                  <option value="Greece">Greece</option>
+                </select>
+              </label>
+              <label for="horsepower"
+                >Horsepower of your car:
+                <input type="number" name="horsepower" required />
+              </label>
+            </form>
+            <button id="calculate" type="submit" form="form">Calculate</button>
+            <div class="result">
+              <p></p>
+            </div>
+          </div>
+        </article>
+        <aside>
+          <h3>Un-complicated car coverage</h3>
+          <p>Understanding your coverage options shouldn't be so hard.</p>
+          <p>
+            We'll guide you through available coverage types, <br />
+            starting with who and what is covered.
+          </p>
+        </aside>
+      </section>
+      <div class="two-column-row">
+        <div class="column">
+          <h4>What comes standard</h4>
+          <span>The coverage you need</span>
+          <ul>
+            <li><i class="fas fa-check"></i> Bodily Injury Liability</li>
+            <li><i class="fas fa-check"></i> Property Damage</li>
+            <li><i class="fas fa-check"></i> Medical Payments</li>
+          </ul>
+          <h5>Benefits</h5>
+          <p>
+            12-month rate guarantee | 24/7 customer service | Lifetime Repair
+            Guarantee
+          </p>
+        </div>
+        <div class="column">
+          <h4>Add-on protection & coverage</h4>
+          <span>For more peace of mind</span>
+          <ul>
+            <li><i class="fas fa-check"></i> Better Car Replacement</li>
+            <li><i class="fas fa-check"></i> Towing & Labor</li>
+            <li><i class="fas fa-check"></i> Rental Car Coverage</li>
+          </ul>
+          <h5>Earned Benefits</h5>
+          <p>
+            Accident Forgiveness<sup>1</sup> | New Car Replacement<sup>TM</sup>
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <img src="./img/logo-inv.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>George Ciocan - Codefactory 2018</p>
+      </div>
+    </footer>
+    <script src="./js/insurance.js"></script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+//main settings for the page
+main {
+  margin-top: 26vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+article {
+  background-image: url(../../img/traffic-332857_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.two-column-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  width: 25rem;
+  //extra styling
+  font-size: large;
+  border-top: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 0.1rem;
+  margin: 3rem;
+  padding: 2rem;
+  //extra styling
+}
+
+.insurance-calculator {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 85%;
+  border: 3px solid #5d5c5a;
+  margin: 0 auto -2rem auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+aside {
+  background-color: #cecece;
+  text-align: center;
+  padding: 2.5rem 0 0.5rem 0; //2rem is because of the border that overlaps, to compensate the -2rem margin from the above container
+}
+//main settings for the page
+
+//form settings
+form {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+label {
+  width: min-content;
+}
+
+input,
+select {
+  width: 25vw;
+}
+//form settings
+
+//individual seetings
+.title {
+  margin-top: 6vh;
+  margin-left: 5%;
+}
+
+.insurance-calculator h2 {
+  max-width: 50%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+input,
+select {
+  font-size: 2rem;
+}
+
+.result {
+  height: 5rem;
+  color: #339235;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+button {
+  width: 25vw;
+  font-size: 3rem;
+  background-color: #339235;
+  color: white;
+  border-radius: 1rem;
+}
+//individual seetings
+
+//extra styling
+.column :not(h5):not(i) {
+  color: #455f95;
+}
+
+i {
+  color: #90d3d4;
+}
+
+.column ul {
+  margin: 1rem 0 2rem 0;
+}
+//extra styling
+
+//heading styles
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+h5 {
+  font-weight: bolder;
+}
+//heading styles
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .insurance-calculator h2 {
+    max-width: 60%;
+  }
+  button {
+    font-size: 2rem;
+    border-radius: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  label {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+  }
+  input,
+  select {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .insurance-calculator h2 {
+    max-width: 90%;
+  }
+  .result {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  button {
+    width: 40vw;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+  }
+}

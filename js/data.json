@@ -1,0 +1,87 @@
+
+var teamMembers = `[
+  {
+    "name": "Fran",
+    "email": "fran@index.com",
+    "image": "./img/avatar2.png",
+    "age": 23,
+    "ocupation": "CEO"
+  },
+  {
+    "name": "Bill",
+    "email": "bill@index.com",
+    "image": "./img/avatar1.jpg",
+    "age": 21,
+    "ocupation": "salesman"
+  },
+  {
+    "name": "Fritz",
+    "email": "fritz@index.com",
+    "image": "./img/avatar3.jpg",
+    "age": 64,
+    "ocupation": "grandfather"
+  },
+  {
+    "name": "Markus",
+    "email": "markus@index.com",
+    "image": "./img/avatar4.png",
+    "age": 29,
+    "ocupation": "lawyer"
+  },
+  {
+    "name": "Fran",
+    "email": "fran@index.com",
+    "image": "./img/avatar2.png",
+    "age": 23,
+    "ocupation": "CEO"
+  },
+  {
+    "name": "Bill",
+    "email": "bill@index.com",
+    "image": "./img/avatar1.jpg",
+    "age": 21,
+    "ocupation": "salesman"
+  },
+  {
+    "name": "Fritz",
+    "email": "fritz@index.com",
+    "image": "./img/avatar3.jpg",
+    "age": 64,
+    "ocupation": "grandfather"
+  },
+  {
+    "name": "Markus",
+    "email": "markus@index.com",
+    "image": "./img/avatar4.png",
+    "age": 29,
+    "ocupation": "lawyer"
+  },
+  {
+    "name": "Fran",
+    "email": "fran@index.com",
+    "image": "./img/avatar2.png",
+    "age": 23,
+    "ocupation": "CEO"
+  },
+  {
+    "name": "Bill",
+    "email": "bill@index.com",
+    "image": "./img/avatar1.jpg",
+    "age": 21,
+    "ocupation": "salesman"
+  },
+  {
+    "name": "Fritz",
+    "email": "fritz@index.com",
+    "image": "./img/avatar3.jpg",
+    "age": 64,
+    "ocupation": "grandfather"
+  },
+  {
+    "name": "Markus",
+    "email": "markus@index.com",
+    "image": "./img/avatar4.png",
+    "age": 29,
+    "ocupation": "lawyer"
+  }
+]`;
