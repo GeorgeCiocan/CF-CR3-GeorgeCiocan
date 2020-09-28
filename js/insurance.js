@@ -1,4 +1,4 @@
-function calculateAmount(event) {
+function calculateInsurance(event) {
   //prevents page from refreshing at form submit
   event.preventDefault();
   //declaring needed variables
@@ -33,4 +33,4 @@ function calculateAmount(event) {
 }
 
 let button = document.getElementById("calculate");
-button.addEventListener("click", calculateAmount);
+button.addEventListener("click", calculateInsurance);
